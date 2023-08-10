@@ -64,7 +64,7 @@
     <div id="header">
             <?php
                 if($site_logo)
-                    echo '<img src="' . $site_logo . '" style="width: 500px;height:auto;position: absolute;left: 40px;z-index: 900;bottom: 10px;">';
+                    echo '<a href="https://alla.vegarlson-server.org/"><img src="' . $site_logo . '" style="width: 500px;height:auto;position: absolute;left: 40px;z-index: 900;bottom: 10px;"></a>';
             ?>"
 
         <form id="global_search">
