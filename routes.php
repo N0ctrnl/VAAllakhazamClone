@@ -57,9 +57,16 @@ if ($route == "spells") {
         require_once('pages/front_page.php');
     } else {
         echo '
-            <h2>Welcome to ' . $site_name . ' EQEmu Allakhazam!</h2>
-            <br>
-            Get started with the menu on the left!
+           <h1>' . $site_name . ' EQEmu Allakhazam</h2>
+           <br>
+           <h2>Please be aware that Recipe Search isn\'t working, but everything else should be.
+           <br><br>
+           If you have any other issues, please don\'t hesitate to let us know.
+           <br><br>
+           Big thanks to Akkadius and the EQEmu team for this tool!
+           <br>
+           <br>
+           - The VA Team</h2>
         ';
     }
 }
